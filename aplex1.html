@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StudyNest - Homepage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #D3D3D3;
+      color: brown;
+      padding: 20px;
+    }
+
+    .p {
+      color: black;
+    }
+
+    .image-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .image-text p {
+      margin-left: 15px;
+    }
+
+    .platforms {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .platforms h2 {
+      text-align: center;
+      color: #004aad;
+    }
+
+    .platform-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .platform {
+      text-align: center;
+      width: 220px;
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .platform img {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .platform a {
+      text-decoration: none;
+      color: #004aad;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .platform p {
+      font-size: 14px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <marquee direction="right">
+      <h1><u>Welcome To StudyNest</u></h1>
+    </marquee>
+    <p class="p" align="center"><i>Your place to grow and shine</i></p>
+  </header>
+
+  <!-- About Us Link -->
+  <div class="image-text">
+    <a href="about.html"> 
+      <img src="img1.png" width="150" height="150" alt="About Us">
+    </a>
+    <p>Click the image to know about us</p>
+  </div>
+
+  <!-- Frontend Developer Platforms -->
+  <section class="platforms">
+    <h2>Frontend Development Learning Platforms</h2>
+    <div class="platform-grid">
+
+      <div class="platform">
+        <a href="https://www.w3schools.com" target="_blank">
+          <img src="https://www.w3schools.com/favicon.ico" alt="W3Schools">
+          W3Schools
+        </a>
+        <p>Simple, beginner-friendly tutorials on HTML, CSS, JS, and more.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://www.freecodecamp.org" target="_blank">
+          <img src="codemap.png">
+          freeCodeCamp
+        </a>
+        <p>Full frontend roadmap with projects and certifications – 100% free.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://developer.mozilla.org/en-US/" target="_blank">
+          <img src="mdn.png">
+          MDN Web Docs
+        </a>
+        <p>Official and reliable documentation for all frontend technologies.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://www.frontendmentor.io" target="_blank">
+          <img src="frontend.png">
+          Frontend Mentor
+        </a>
+        <p>Real-world HTML/CSS/JS projects to build a professional portfolio.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://scrimba.com/learn/frontend" target="_blank">
+          <img src="scrimba.png">
+          Scrimba
+        </a>
+        <p>Interactive screencasts for learning React, JavaScript, and more.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://codepen.io/" target="_blank">
+          <img src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png" alt="CodePen">
+          CodePen
+        </a>
+        <p>Online code editor to build and test HTML, CSS, and JS in real time.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://css-tricks.com" target="_blank">
+          <img src="https://css-tricks.com/apple-touch-icon.png" alt="CSS Tricks">
+          CSS-Tricks
+        </a>
+        <p>Tips, tutorials, and guides specifically focused on CSS and design.</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- Alert Button -->
+<div style="text-align: center; margin-top: 40px;">
+  <button onclick="showTip()" style="padding: 12px 24px; font-size: 16px; background-color: #004aad; color: white; border: none; border-radius: 8px; cursor: pointer;">
+    Click for a Quick Tip!
+  </button>
+</div>
+
+<script>
+  function showTip() {
+    alert("💡 Tip: Start with HTML and CSS before moving to JavaScript and frameworks!");
+  }
+</script>
+
+
+  <!-- General Study Platforms -->
+  <section class="platforms">
+    <h2>Top Study Platforms</h2>
+    <div class="platform-grid">
+
+      <div class="platform">
+        <a href="https://www.khanacademy.org" target="_blank">
+          <img src="https://www.khanacademy.org/favicon.ico" alt="Khan Academy">
+          Khan Academy
+        </a>
+        <p>Free learning for students of all ages in math, science, history, and more.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://www.coursera.org" target="_blank">
+          <img src="https://www.coursera.org/favicon.ico" alt="Coursera">
+          Coursera
+        </a>
+        <p>Online courses from top universities and companies worldwide.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://www.edx.org" target="_blank">
+          <img src="https://www.edx.org/favicon.ico" alt="edX">
+          edX
+        </a>
+        <p>High-quality courses from MIT, Harvard, and other top institutions.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://www.udemy.com" target="_blank">
+          <img src="udemy.png">
+          Udemy
+        </a>
+        <p>Thousands of affordable courses to upskill in tech, business, and more.</p>
+      </div>
+
+      <div class="platform">
+        <a href="https://brilliant.org" target="_blank">
+          <img src="https://brilliant.org/favicon.ico" alt="Brilliant">
+          Brilliant
+        </a>
+        <p>Interactive learning in math, science, and logical thinking skills.</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
